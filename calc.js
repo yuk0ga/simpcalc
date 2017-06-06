@@ -4,3 +4,15 @@ function addition(){
   var answer = x + y;
   document.getElementById("addans").value = answer;
 }
+
+function subtraction(){
+  alert("service temporarily unavailable")
+}
+
+function multiplication(){
+  alert("service temporarily unavailable")
+}
+
+function division(){
+  alert("service temporarily unavailable")
+}
