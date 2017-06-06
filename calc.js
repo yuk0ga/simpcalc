@@ -1,6 +1,6 @@
 function addition(){
-  var x = document.getElementById('add1');
-  var y = document.getElementById('add2');
-  return x + y;
-  alert(x);
+  var x = parseInt(document.getElementById("add1").value);
+  var y = parseInt(document.getElementById("add2").value);
+  var answer = x + y;
+  alert(answer);
 }
